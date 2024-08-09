@@ -3,10 +3,12 @@
 This project provides a set of tools to generate descriptions for SQL Server tables, create SQL queries based on user natural language questions (NL2SQL), and execute those queries to retrieve and display data. It leverages OpenAI's GPT4 model for generating descriptions and queries.  
 
 *NOTE*: This code has only been tested on Linux (Ubuntu) and may need changes to work on other OS's.
-  
+
+
+
 ## Features  
   
-- Generate detailed descriptions for SQL Server tables.  
+- Generate detailed descriptions for SQL Server tables to assist Azure OpenAI in generating highly accuracte queries.
 - Create SQL queries based on user questions.  
 - Execute SQL queries and display results in markdown format.  
 - Generate textual answers based on query results.  
