@@ -20,8 +20,8 @@ This project provides a set of tools to generate descriptions for SQL Server tab
   
 1. Clone the repository:  
     ```sh  
-    git clone https://github.com/yourusername/your-repo-name.git  
-    cd your-repo-name  
+    git clone [https://github.com/liamca/azure_openai_nl2sql](https://github.com/liamca/azure_openai_nl2sql)  
+    cd azure_openai_nl2sql  
     ```  
   
 2. Install the required Python packages:  
