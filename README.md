@@ -57,4 +57,7 @@ This project provides a set of tools to generate descriptions for SQL Server tab
     - `database`  
     - `username`  
     - `password`  
-  
+
+### Example SQL Query Generation
+![image](https://github.com/user-attachments/assets/50eac200-a567-4887-8e6e-95f2f94e4335)
+
