@@ -18,7 +18,7 @@ NOTE: This code has only been tested on Linux (Ubuntu) and may need changes to w
 - Python 3.7 or higher  
 - Required Python packages: `pyodbc`, `openai`, `pandas`, `IPython`  
   
-### Installation  
+### Installation and Usage
   
 1. Clone the repository:  
     ```sh  
@@ -42,7 +42,7 @@ NOTE: This code has only been tested on Linux (Ubuntu) and may need changes to w
     sudo apt-get install -y libgssapi-krb5-2
     ```  
 
-3. Open the notebook [nl2sql.ipynb](nl2sql.ipynb)
+3. Open the demo notebook [nl2sql.ipynb]([nl2sql.ipynb](https://github.com/liamca/azure_openai_nl2sql/blob/main/nl2sql.ipynb))
   
 4. Locate the Configuration cell and configure your environment variables:  
     - `openai_gpt_api_base`  
@@ -58,11 +58,3 @@ NOTE: This code has only been tested on Linux (Ubuntu) and may need changes to w
     - `username`  
     - `password`  
   
-## Usage  
-  
-### Generate Schema Information  
-  
-To generate schema information for your SQL Server database, use the `get_sql_server_schema_info` function:  
-  
-```python  
-schema_info = get_sql_server_schema_info(server, database, username, password)  
