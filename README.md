@@ -16,7 +16,7 @@ NOTE: This code has only been tested on Linux (Ubuntu) and may need changes to w
 ### Prerequisites  
   
 - Python 3.7 or higher  
-- Required Python packages: `pyodbc`, `openai`, `pandas`, `IPython`  
+- Required Python packages: `pyodbc`, `openai`, `pandas`, `IPython`, `tabulate`  
   
 ### Installation and Usage
   
