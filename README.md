@@ -41,8 +41,10 @@ NOTE: This code has only been tested on Linux (Ubuntu) and may need changes to w
     # optional: kerberos library for debian-slim distributions
     sudo apt-get install -y libgssapi-krb5-2
     ```  
+
+3. Open the notebook [nl2sql.ipynb](nl2sql.ipynb)
   
-3. Configure your environment variables:  
+4. Locate the Configuration cell and configure your environment variables:  
     - `openai_gpt_api_base`  
     - `openai_gpt_api_key`  
     - `openai_gpt_api_version`  
