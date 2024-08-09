@@ -1,8 +1,8 @@
-# SQL Server Schema Description and Query Generation  
+# SQL Server Schema Description and Query Generation using NL2SQL
   
-This project provides a set of tools to generate descriptions for SQL Server tables, create SQL queries based on user questions, and execute those queries to retrieve and display data. It leverages OpenAI's GPT models for generating descriptions and queries.  
+This project provides a set of tools to generate descriptions for SQL Server tables, create SQL queries based on user natural language questions (NL2SQL), and execute those queries to retrieve and display data. It leverages OpenAI's GPT4 model for generating descriptions and queries.  
 
-NOTE: This code has only been tested on Linux (Ubuntu) and may need changes to work on other OS's.
+*NOTE*: This code has only been tested on Linux (Ubuntu) and may need changes to work on other OS's.
   
 ## Features  
   
