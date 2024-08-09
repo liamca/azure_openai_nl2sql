@@ -1,6 +1,8 @@
 # SQL Server Schema Description and Query Generation  
   
 This project provides a set of tools to generate descriptions for SQL Server tables, create SQL queries based on user questions, and execute those queries to retrieve and display data. It leverages OpenAI's GPT models for generating descriptions and queries.  
+
+NOTE: This code has only been tested on Linux (Ubuntu) and may need changes to work on other OS's.
   
 ## Features  
   
@@ -24,9 +26,20 @@ This project provides a set of tools to generate descriptions for SQL Server tab
     cd azure_openai_nl2sql  
     ```  
   
-2. Install the required Python packages:  
+2. Install the required Python packages and Microsoft SQL ODBC Drivers:  
     ```sh  
-    pip install pyodbc openai pandas ipython  
+    pip install pyodbc openai pandas ipython
+
+    sudo apt-get update
+    sudo ACCEPT_EULA=Y apt-get install -y msodbcsql18
+    # optional: for bcp and sqlcmd
+    sudo ACCEPT_EULA=Y apt-get install -y mssql-tools18
+    echo 'export PATH="$PATH:/opt/mssql-tools18/bin"' >> ~/.bashrc
+    source ~/.bashrc
+    # optional: for unixODBC development headers
+    sudo apt-get install -y unixodbc-dev
+    # optional: kerberos library for debian-slim distributions
+    sudo apt-get install -y libgssapi-krb5-2
     ```  
   
 3. Configure your environment variables:  
